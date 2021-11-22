@@ -16,7 +16,7 @@ def cmd_list():
                
     ls  - list directory             mkdir - make directory
     rm  - remove file/directory      get   - download file
-    com - list commands              post  - upload file     
+    com - list commands              put   - upload file     
     '''
     return list_commands
 
@@ -71,7 +71,7 @@ def get_command(cmd):
         return f'error download [{cmd[1]}]'
 
 
-def post_command(cmd):
+def put_command(cmd):
     if len(cmd) != 3:
         return 'post: missing operand. post <id_folder> <path>'
     try:
@@ -98,8 +98,8 @@ def commands(cmd):
         return rm_command(cmd)
     elif command == 'get':
         return get_command(cmd)
-    elif command == 'post':
-        return post_command(cmd)
+    elif command == 'put':
+        return put_command(cmd)
     else:
         return 'Command not found'
 
