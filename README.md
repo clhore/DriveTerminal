@@ -3,7 +3,7 @@
   <h4>Esta herramienta esta creada con el fin de poder gestionar google drive atraves de una terminal.</h4>
 </div>
 <ul>
-    <li>Es te script es capaz de subir archivos, descargar archivos, visualizar archivos y carpetas que se encuentren almacenados en google drive.</li>
+    <li>Es te script es capaz de descargar y subir archivos, visualizar archivos y carpetas que se encuentren almacenados en google drive.</li>
     <li>Ademas permite crear nuevas carpetas y eleiminar archivos y carpetas.</li>
 </ul> 
 
