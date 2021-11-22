@@ -1,4 +1,19 @@
-# DriveTerminal
+<div align="center">
+  <h1>DriveTerminal</h1>
+  <h4>Esta herramienta esta creada con el fin de poder gestionar google drive atraves de una terminal.</h4>
+</div>
+<ul>
+    <li>Es te script es capaz de subir archivos, descargar archivos, visualizar archivos y carpetas que se encuentren almacenados en google drive.</li>
+    <li>Ademas permite crear nuevas carpetas y eleiminar archivos y carpetas.</li>
+</ul> 
+
+Requisitos
+======
+Intalar las librerias de python: 
+
+    pip install tabulate
+    pip install PyDrive2
+    pip install PyDrive
 
 ### Crea un proyecto en https://console.cloud.google.com y habilita la Google Drive API
 ![](https://i.imgur.com/hmWrrdT.png)
