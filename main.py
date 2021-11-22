@@ -73,7 +73,7 @@ def get_command(cmd):
 
 def put_command(cmd):
     if len(cmd) != 3:
-        return 'post: missing operand. post <id_folder> <path>'
+        return 'put: missing operand. put <id_folder> <path>'
     try:
         name_file = DriveFile('credentials_module.json').uploadFile(cmd[1], cmd[2])
         return f'upload success, file [{name_file}]'
