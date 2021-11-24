@@ -62,9 +62,9 @@ class DriveFile:
         file = drive.CreateFile({'id': id_file})
         if mode == 'trash':
             file.Trash()
-        if mode == 'outTrash':
+        elif mode == 'outTrash':
             file.UnTrash()
-        if mode == 'permanent':
+        elif mode == 'permanent':
             file.Delete()
 
     def createFolder(self, id_folder, name_file):
